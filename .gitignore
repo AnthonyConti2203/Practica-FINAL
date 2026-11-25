@@ -145,6 +145,18 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
+# Variables de entorno y credenciales
+.env
+
+# Base de datos local de SQLite generada en las pruebas
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales de pruebas y sistema
+pruebas.http
+.DS_Store
+Thumbs.db
 # Astro generated types
 .astro/
 
